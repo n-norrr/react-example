@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from './components/Header'
+import Start from './components/Start'
 
 const App = () => {
   return (
     <div>
-      Hello
+      <Header />
+      <Start />
     </div>
   )
 }
